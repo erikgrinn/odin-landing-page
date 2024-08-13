@@ -9,9 +9,15 @@ body {
   flex-direction: column;
 }
 
-img {
-  width: 250px;
-}
+/* img {
+  width: 150px;
+  height: 150px;
+} */
+
+/* .hero-picture {
+    width: 125px;
+    height: 125px;
+} */
 
 button {
   font-family: Roboto, sans-serif;
@@ -35,7 +41,7 @@ input {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 16px;
+  gap: 30px;
 }
 
 a {
@@ -88,16 +94,28 @@ a {
     flex-wrap: wrap;
 }
 
-.content{
+.cards{
     display: flex;
     flex-direction: row;
     padding: 2%;
+    justify-content: center;
+}
+
+.card {
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .image {
-    border: 1px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-    border-radius: 4px;
+    border-radius: 5px;
+    margin: auto;
+    justify-content: center;
 }
 
 .text {
