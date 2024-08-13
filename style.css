@@ -3,10 +3,13 @@
 body {
   height: 100%;
   margin: 0;
-  /* overflow: hidden; */
   font-family: "Roboto", sans-serif;
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* padding: 16px 64px; */
 }
 
 /* .hero-button {
@@ -35,18 +38,7 @@ button {
   margin-top: 5px;
 }
 
-
-.content {
-  flex: 1;
-  display: flex;
-  /* align-items: center; */
-  justify-content: center;
-  flex-direction: column;
-  gap: 16px;
-}
-
 a {
-  /* color: #F9FAF8; */
   text-decoration: none;
 }
 
@@ -55,7 +47,7 @@ a {
   background-color: #1F2937;
   display: flex;
   justify-content: space-between;
-  padding: 16px;
+  padding: 16px 64px;
   align-items: center;
   /* gap: 16px; */
 }
@@ -76,21 +68,27 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 48px;
+    padding: 48px 64px;
     /* flex-wrap: wrap; */
-    gap: 16px;
+    gap: 32px;
 }
 .hero-left{
     display: flex;
     flex-direction: column;
+    /* align-content: flex-start; */
 }
 .hero-main {
     font-size: 48px;
     color: #F9FAF8;
 }
-.hero-sub {
+/* .hero-sub {
     flex-wrap: wrap;
+} */
+
+.hero-picture{
+    
 }
+ 
 
 .random-info {
     font-size: 36px;
@@ -103,7 +101,7 @@ a {
 .cards{
     display: flex;
     flex-direction: row;
-    padding: 1%;
+    padding: 32px;
     justify-content: center;
 }
 
@@ -152,7 +150,8 @@ a {
     /* width: auto; */
     justify-content: center;
     align-items: center;
-    gap: 16px
+    gap: 16px;
+    border-radius: 10px;
 }
 
 .bigText {
