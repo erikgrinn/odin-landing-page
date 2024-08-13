@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-  height: 100vh;
+  height: 100%;
   margin: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   font-family: "Roboto", sans-serif;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
 }
 
 /* .hero-button {
@@ -39,10 +39,10 @@ button {
 .content {
   flex: 1;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   flex-direction: column;
-  gap: 30px;
+  gap: 16px;
 }
 
 a {
@@ -57,6 +57,7 @@ a {
   justify-content: space-between;
   padding: 16px;
   align-items: center;
+  /* gap: 16px; */
 }
 
 .left-links a {
@@ -70,10 +71,6 @@ a {
     color: #E5E7EB;
 }
 
-/* .footer {
-  
-} */
-
 .hero {
     background-color: #1F2937;
     display: flex;
@@ -81,7 +78,7 @@ a {
     align-items: center;
     padding: 48px;
     /* flex-wrap: wrap; */
-    gap: 32px;
+    gap: 16px;
 }
 .hero-left{
     display: flex;
@@ -99,12 +96,14 @@ a {
     font-size: 36px;
     color: #1F2937;
     font-weight: 700;
+    margin-top: 16px;
+    text-align: center;
 }
 
 .cards{
     display: flex;
     flex-direction: row;
-    padding: 2%;
+    padding: 1%;
     justify-content: center;
 }
 
@@ -126,6 +125,21 @@ a {
 
 .text {
     text-align: center;
+}
+
+.quote-author {
+    background-color: #E5E7EB;
+    font-style: italic;
+    color: #1F2937;
+    padding: 5%;
+}
+
+/* .quote {
+
+} */
+
+.author {
+    text-align: right;
 }
 
 ul {
