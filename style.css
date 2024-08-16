@@ -56,6 +56,7 @@ a {
 .hero-left{
     display: flex;
     flex-direction: column;
+    /* align-items: flex-start; */
 }
 .hero-main {
     font-size: 48px;
@@ -87,8 +88,11 @@ a {
 
 .card {
     padding: 2%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .image {
@@ -103,7 +107,8 @@ a {
 }
 
 .text {
-    text-align: center;
+    text-align: center; 
+    padding: 5px 75px;
 }
 
 .quote-author {
