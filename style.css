@@ -118,21 +118,28 @@ a {
     padding: 48px;
 }
 
-/* .quote {
-
-} */
+.quote {
+    padding: 48px;
+    height: 75%;
+    width: 75%;
+    margin: auto;
+    justify-content: center;
+    font-size: 36px;
+}
 
 .author {
     text-align: right;
+    padding: 0 32px;
 }
 
 .call-to-action {
     display: flex;
     background-color: #3882F6;
-    align-content: center;
-    margin: 4%;
+    /* align-content: center; */
+    margin: 4% 128px;
     padding: 16px 48px;
     height: 100px;
+    /* width: 50%; */
     /* width: auto; */
     justify-content: center;
     align-items: center;
